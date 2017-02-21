@@ -1,14 +1,19 @@
 ## 安装 
 
+```
 npm install ct-adc-mixins -D
+```
 
 ## 使用
+
+```
 import mixins from 'ct-adc-mixins';
 var Validator=mixins.validator;
 var mixin=new Validator(ops);
 new Vue({
     mixins:[mixin]
 })
+```
 
 ## ops配置项
 
