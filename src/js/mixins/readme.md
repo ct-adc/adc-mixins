@@ -108,6 +108,7 @@ async: 标注该条验证规则是否为异步验证。
 ### validateAsync
 
 异步验证一个input；参数为input名称，如上面的name/age。
+该异步验证返回一个Promise对象，开发者需在promise的then回调中执行后台提交逻辑，以此保证在提交数据前所有的异步验证执行结束。
 
 ### touch
 
