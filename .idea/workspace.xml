@@ -21,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="validator.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="validator.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/mixins/validator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39774153">
-              <caret line="90" column="29" selection-start-line="90" selection-start-column="29" selection-end-line="90" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="92" column="18" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="18" />
               <folding>
                 <element signature="n#!!block;n#getInputs#0" expanded="true" />
                 <element signature="n#!!block;n#getFormTouched#0" expanded="true" />
@@ -34,50 +34,51 @@
                 <element signature="e#2411#2452#0" expanded="true" />
                 <element signature="e#2861#2946#0" expanded="true" />
                 <element signature="e#2958#3040#0" expanded="true" />
+                <element signature="e#3051#3111#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="update.vue" pinned="false" current-in-tab="false">
+      <file leaf-file-name="update.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/example/validator/update.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.965517">
-              <caret line="165" column="32" selection-start-line="165" selection-start-column="32" selection-end-line="165" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.5052083">
+              <caret line="156" column="23" selection-start-line="156" selection-start-column="23" selection-end-line="156" selection-end-column="23" />
               <folding>
-                <marker date="1487729843000" expanded="false" signature="3714:5206" placeholder="{...}" />
-                <marker date="1487729843000" expanded="true" signature="3730:3956" placeholder="{&quot;form&quot;: 'form.name'...}" />
-                <marker date="1487729843000" expanded="true" signature="3751:3915" placeholder="{...}" />
-                <marker date="1487729843000" expanded="true" signature="3778:3827" placeholder="{&quot;rule&quot;: /.+/...}" />
-                <marker date="1487729843000" expanded="true" signature="3849:3901" placeholder="{&quot;rule&quot;: /.{5,}/...}" />
-                <marker date="1487729843000" expanded="true" signature="3971:4125" placeholder="{&quot;form&quot;: 'form.age'...}" />
-                <marker date="1487729843000" expanded="true" signature="3992:4085" placeholder="{...}" />
-                <marker date="1487729843000" expanded="true" signature="4019:4071" placeholder="{&quot;rule&quot;: /^\d+$/...}" />
-                <marker date="1487729843000" expanded="true" signature="4142:4373" placeholder="{&quot;form&quot;: 'form.grade'...}" />
-                <marker date="1487729843000" expanded="true" signature="4163:4331" placeholder="{...}" />
-                <marker date="1487729843000" expanded="true" signature="4192:4317" placeholder="{...}" />
-                <marker date="1487729843000" expanded="false" signature="4235:4299" placeholder="{...}" />
-                <marker date="1487729843000" expanded="true" signature="4387:5200" placeholder="{&quot;form&quot;: 'form.id'...}" />
-                <marker date="1487729843000" expanded="true" signature="4408:5161" placeholder="{...}" />
-                <marker date="1487729843000" expanded="true" signature="4434:5147" placeholder="{&quot;async&quot;: true...}" />
-                <marker date="1487729843000" expanded="false" signature="4475:5097" placeholder="{...}" />
-                <marker date="1487729843000" expanded="true" signature="4531:4782" placeholder="{&quot;url&quot;: '/recommendRuleV2/isExistRuleCode'...}" />
-                <marker date="1487729843000" expanded="true" signature="4678:4756" placeholder="{...}" />
-                <marker date="1487729843000" expanded="false" signature="4798:5074" placeholder="{...}" />
-                <marker date="1487729843000" expanded="true" signature="4856:4949" placeholder="{...}" />
-                <marker date="1487729843000" expanded="true" signature="4955:5048" placeholder="{...}" />
-                <marker date="1487729843000" expanded="false" signature="5229:5407" placeholder="{...}" />
-                <marker date="1487729843000" expanded="true" signature="5253:5399" placeholder="{...}" />
-                <marker date="1487729843000" expanded="true" signature="5273:5389" placeholder="{&quot;name&quot;: ''...}" />
-                <marker date="1487729843000" expanded="true" signature="5496:6278" placeholder="{...}" />
-                <marker date="1487729843000" expanded="true" signature="5541:5577" placeholder="{...}" />
-                <marker date="1487729843000" expanded="true" signature="5596:6272" placeholder="{...}" />
-                <marker date="1487729843000" expanded="true" signature="5617:5693" placeholder="{...}" />
-                <marker date="1487729843000" expanded="true" signature="5713:5778" placeholder="{...}" />
-                <marker date="1487729843000" expanded="true" signature="5798:5863" placeholder="{...}" />
-                <marker date="1487729843000" expanded="true" signature="5883:5974" placeholder="{...}" />
-                <marker date="1487729843000" expanded="true" signature="5996:6262" placeholder="{...}" />
-                <marker date="1487729843000" expanded="true" signature="6098:6183" placeholder="{...}" />
+                <marker date="1487730738000" expanded="false" signature="3714:5206" placeholder="{...}" />
+                <marker date="1487730738000" expanded="true" signature="3730:3956" placeholder="{&quot;form&quot;: 'form.name'...}" />
+                <marker date="1487730738000" expanded="true" signature="3751:3915" placeholder="{...}" />
+                <marker date="1487730738000" expanded="true" signature="3778:3827" placeholder="{&quot;rule&quot;: /.+/...}" />
+                <marker date="1487730738000" expanded="true" signature="3849:3901" placeholder="{&quot;rule&quot;: /.{5,}/...}" />
+                <marker date="1487730738000" expanded="true" signature="3971:4125" placeholder="{&quot;form&quot;: 'form.age'...}" />
+                <marker date="1487730738000" expanded="true" signature="3992:4085" placeholder="{...}" />
+                <marker date="1487730738000" expanded="true" signature="4019:4071" placeholder="{&quot;rule&quot;: /^\d+$/...}" />
+                <marker date="1487730738000" expanded="true" signature="4142:4373" placeholder="{&quot;form&quot;: 'form.grade'...}" />
+                <marker date="1487730738000" expanded="true" signature="4163:4331" placeholder="{...}" />
+                <marker date="1487730738000" expanded="true" signature="4192:4317" placeholder="{...}" />
+                <marker date="1487730738000" expanded="false" signature="4235:4299" placeholder="{...}" />
+                <marker date="1487730738000" expanded="true" signature="4387:5200" placeholder="{&quot;form&quot;: 'form.id'...}" />
+                <marker date="1487730738000" expanded="true" signature="4408:5161" placeholder="{...}" />
+                <marker date="1487730738000" expanded="true" signature="4434:5147" placeholder="{&quot;async&quot;: true...}" />
+                <marker date="1487730738000" expanded="false" signature="4475:5097" placeholder="{...}" />
+                <marker date="1487730738000" expanded="true" signature="4531:4782" placeholder="{&quot;url&quot;: '/recommendRuleV2/isExistRuleCode'...}" />
+                <marker date="1487730738000" expanded="true" signature="4678:4756" placeholder="{...}" />
+                <marker date="1487730738000" expanded="false" signature="4798:5074" placeholder="{...}" />
+                <marker date="1487730738000" expanded="true" signature="4856:4949" placeholder="{...}" />
+                <marker date="1487730738000" expanded="true" signature="4955:5048" placeholder="{...}" />
+                <marker date="1487730738000" expanded="false" signature="5229:5407" placeholder="{...}" />
+                <marker date="1487730738000" expanded="true" signature="5253:5399" placeholder="{...}" />
+                <marker date="1487730738000" expanded="true" signature="5273:5389" placeholder="{&quot;name&quot;: ''...}" />
+                <marker date="1487730738000" expanded="true" signature="5496:6286" placeholder="{...}" />
+                <marker date="1487730738000" expanded="true" signature="5541:5577" placeholder="{...}" />
+                <marker date="1487730738000" expanded="true" signature="5596:6280" placeholder="{...}" />
+                <marker date="1487730738000" expanded="true" signature="5617:5693" placeholder="{...}" />
+                <marker date="1487730738000" expanded="true" signature="5713:5778" placeholder="{...}" />
+                <marker date="1487730738000" expanded="true" signature="5798:5863" placeholder="{...}" />
+                <marker date="1487730738000" expanded="true" signature="5883:5974" placeholder="{...}" />
+                <marker date="1487730738000" expanded="true" signature="5996:6270" placeholder="{...}" />
+                <marker date="1487730738000" expanded="true" signature="6097:6254" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -447,52 +448,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/validator/update.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.965517">
-          <caret line="165" column="32" selection-start-line="165" selection-start-column="32" selection-end-line="165" selection-end-column="32" />
-          <folding>
-            <marker date="1487729843000" expanded="false" signature="3714:5206" placeholder="{...}" />
-            <marker date="1487729843000" expanded="true" signature="3730:3956" placeholder="{&quot;form&quot;: 'form.name'...}" />
-            <marker date="1487729843000" expanded="true" signature="3751:3915" placeholder="{...}" />
-            <marker date="1487729843000" expanded="true" signature="3778:3827" placeholder="{&quot;rule&quot;: /.+/...}" />
-            <marker date="1487729843000" expanded="true" signature="3849:3901" placeholder="{&quot;rule&quot;: /.{5,}/...}" />
-            <marker date="1487729843000" expanded="true" signature="3971:4125" placeholder="{&quot;form&quot;: 'form.age'...}" />
-            <marker date="1487729843000" expanded="true" signature="3992:4085" placeholder="{...}" />
-            <marker date="1487729843000" expanded="true" signature="4019:4071" placeholder="{&quot;rule&quot;: /^\d+$/...}" />
-            <marker date="1487729843000" expanded="true" signature="4142:4373" placeholder="{&quot;form&quot;: 'form.grade'...}" />
-            <marker date="1487729843000" expanded="true" signature="4163:4331" placeholder="{...}" />
-            <marker date="1487729843000" expanded="true" signature="4192:4317" placeholder="{...}" />
-            <marker date="1487729843000" expanded="false" signature="4235:4299" placeholder="{...}" />
-            <marker date="1487729843000" expanded="true" signature="4387:5200" placeholder="{&quot;form&quot;: 'form.id'...}" />
-            <marker date="1487729843000" expanded="true" signature="4408:5161" placeholder="{...}" />
-            <marker date="1487729843000" expanded="true" signature="4434:5147" placeholder="{&quot;async&quot;: true...}" />
-            <marker date="1487729843000" expanded="false" signature="4475:5097" placeholder="{...}" />
-            <marker date="1487729843000" expanded="true" signature="4531:4782" placeholder="{&quot;url&quot;: '/recommendRuleV2/isExistRuleCode'...}" />
-            <marker date="1487729843000" expanded="true" signature="4678:4756" placeholder="{...}" />
-            <marker date="1487729843000" expanded="false" signature="4798:5074" placeholder="{...}" />
-            <marker date="1487729843000" expanded="true" signature="4856:4949" placeholder="{...}" />
-            <marker date="1487729843000" expanded="true" signature="4955:5048" placeholder="{...}" />
-            <marker date="1487729843000" expanded="false" signature="5229:5407" placeholder="{...}" />
-            <marker date="1487729843000" expanded="true" signature="5253:5399" placeholder="{...}" />
-            <marker date="1487729843000" expanded="true" signature="5273:5389" placeholder="{&quot;name&quot;: ''...}" />
-            <marker date="1487729843000" expanded="true" signature="5496:6278" placeholder="{...}" />
-            <marker date="1487729843000" expanded="true" signature="5541:5577" placeholder="{...}" />
-            <marker date="1487729843000" expanded="true" signature="5596:6272" placeholder="{...}" />
-            <marker date="1487729843000" expanded="true" signature="5617:5693" placeholder="{...}" />
-            <marker date="1487729843000" expanded="true" signature="5713:5778" placeholder="{...}" />
-            <marker date="1487729843000" expanded="true" signature="5798:5863" placeholder="{...}" />
-            <marker date="1487729843000" expanded="true" signature="5883:5974" placeholder="{...}" />
-            <marker date="1487729843000" expanded="true" signature="5996:6262" placeholder="{...}" />
-            <marker date="1487729843000" expanded="true" signature="6098:6183" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/mixins/validator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39774153">
-          <caret line="90" column="29" selection-start-line="90" selection-start-column="29" selection-end-line="90" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="92" column="18" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="18" />
           <folding>
             <element signature="n#!!block;n#getInputs#0" expanded="true" />
             <element signature="n#!!block;n#getFormTouched#0" expanded="true" />
@@ -501,6 +460,49 @@
             <element signature="e#2411#2452#0" expanded="true" />
             <element signature="e#2861#2946#0" expanded="true" />
             <element signature="e#2958#3040#0" expanded="true" />
+            <element signature="e#3051#3111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/validator/update.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5052083">
+          <caret line="156" column="23" selection-start-line="156" selection-start-column="23" selection-end-line="156" selection-end-column="23" />
+          <folding>
+            <marker date="1487730738000" expanded="false" signature="3714:5206" placeholder="{...}" />
+            <marker date="1487730738000" expanded="true" signature="3730:3956" placeholder="{&quot;form&quot;: 'form.name'...}" />
+            <marker date="1487730738000" expanded="true" signature="3751:3915" placeholder="{...}" />
+            <marker date="1487730738000" expanded="true" signature="3778:3827" placeholder="{&quot;rule&quot;: /.+/...}" />
+            <marker date="1487730738000" expanded="true" signature="3849:3901" placeholder="{&quot;rule&quot;: /.{5,}/...}" />
+            <marker date="1487730738000" expanded="true" signature="3971:4125" placeholder="{&quot;form&quot;: 'form.age'...}" />
+            <marker date="1487730738000" expanded="true" signature="3992:4085" placeholder="{...}" />
+            <marker date="1487730738000" expanded="true" signature="4019:4071" placeholder="{&quot;rule&quot;: /^\d+$/...}" />
+            <marker date="1487730738000" expanded="true" signature="4142:4373" placeholder="{&quot;form&quot;: 'form.grade'...}" />
+            <marker date="1487730738000" expanded="true" signature="4163:4331" placeholder="{...}" />
+            <marker date="1487730738000" expanded="true" signature="4192:4317" placeholder="{...}" />
+            <marker date="1487730738000" expanded="false" signature="4235:4299" placeholder="{...}" />
+            <marker date="1487730738000" expanded="true" signature="4387:5200" placeholder="{&quot;form&quot;: 'form.id'...}" />
+            <marker date="1487730738000" expanded="true" signature="4408:5161" placeholder="{...}" />
+            <marker date="1487730738000" expanded="true" signature="4434:5147" placeholder="{&quot;async&quot;: true...}" />
+            <marker date="1487730738000" expanded="false" signature="4475:5097" placeholder="{...}" />
+            <marker date="1487730738000" expanded="true" signature="4531:4782" placeholder="{&quot;url&quot;: '/recommendRuleV2/isExistRuleCode'...}" />
+            <marker date="1487730738000" expanded="true" signature="4678:4756" placeholder="{...}" />
+            <marker date="1487730738000" expanded="false" signature="4798:5074" placeholder="{...}" />
+            <marker date="1487730738000" expanded="true" signature="4856:4949" placeholder="{...}" />
+            <marker date="1487730738000" expanded="true" signature="4955:5048" placeholder="{...}" />
+            <marker date="1487730738000" expanded="false" signature="5229:5407" placeholder="{...}" />
+            <marker date="1487730738000" expanded="true" signature="5253:5399" placeholder="{...}" />
+            <marker date="1487730738000" expanded="true" signature="5273:5389" placeholder="{&quot;name&quot;: ''...}" />
+            <marker date="1487730738000" expanded="true" signature="5496:6286" placeholder="{...}" />
+            <marker date="1487730738000" expanded="true" signature="5541:5577" placeholder="{...}" />
+            <marker date="1487730738000" expanded="true" signature="5596:6280" placeholder="{...}" />
+            <marker date="1487730738000" expanded="true" signature="5617:5693" placeholder="{...}" />
+            <marker date="1487730738000" expanded="true" signature="5713:5778" placeholder="{...}" />
+            <marker date="1487730738000" expanded="true" signature="5798:5863" placeholder="{...}" />
+            <marker date="1487730738000" expanded="true" signature="5883:5974" placeholder="{...}" />
+            <marker date="1487730738000" expanded="true" signature="5996:6270" placeholder="{...}" />
+            <marker date="1487730738000" expanded="true" signature="6097:6254" placeholder="{...}" />
           </folding>
         </state>
       </provider>

@@ -157,13 +157,13 @@
                 this.validateAsync('id');
             },
             submit(){
-
                 //手动验证需要异步验证的表单
                 Promise.resolve(this.validateAsync('id')).then(()=>{
                     console.log(JSON.stringify(this.validation));
+                    //touch所有的表单元素
+                    this.touchAll();
                 })
-                //touch所有的表单元素
-                this.touchAll();
+
             }
         }
     };
