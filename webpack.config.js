@@ -5,8 +5,8 @@ var extractCSS = new ExtractTextPlugin('style/[name].css');
 module.exports = {
   context: path.resolve(__dirname, "./example"),
   entry: {
-    //validator:'./validator/app.js'
-    index:'../index.js'
+    validator:'./validator/app.js'
+    //index:'../index.js'
   },
   output: {
     path: path.resolve(__dirname, './asset'),

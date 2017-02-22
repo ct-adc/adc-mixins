@@ -84,7 +84,7 @@ function Mixin(ops) {
                 var firstRule=rules[ruleKeys[0]].rule;
                 this.checking=true;
                 //需要保证只有一个异步验证且在rules规则的最后一项
-                firstRule(data).then((result)=> {
+                return firstRule(data).then((result)=> {
                     this.$set(this.checkTransfer, input, result);
                 }).catch(()=>{
                     this.$set(this.checkTransfer,input,false);

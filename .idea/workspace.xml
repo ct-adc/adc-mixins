@@ -21,63 +21,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="mixins.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/mixins.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1466" column="49" selection-start-line="1466" selection-start-column="49" selection-end-line="1466" selection-end-column="49" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/js/mixins/readme.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.41884816">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="validator.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="validator.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/mixins/validator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.39774153">
+              <caret line="90" column="29" selection-start-line="90" selection-start-column="29" selection-end-line="90" selection-end-column="29" />
               <folding>
                 <element signature="n#!!block;n#getInputs#0" expanded="true" />
+                <element signature="n#!!block;n#getFormTouched#0" expanded="true" />
                 <element signature="e#201#244#0" expanded="true" />
-                <element signature="n#!!block;n#Mixin#0" expanded="true" />
                 <element signature="e#1523#1575#0" expanded="true" />
                 <element signature="e#2411#2452#0" expanded="true" />
+                <element signature="e#2861#2946#0" expanded="true" />
+                <element signature="e#2958#3040#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/validator/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.034483">
-              <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -85,62 +42,42 @@
       <file leaf-file-name="update.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/validator/update.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.379311">
-              <caret line="79" column="17" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
+            <state vertical-scroll-proportion="-20.965517">
+              <caret line="165" column="32" selection-start-line="165" selection-start-column="32" selection-end-line="165" selection-end-column="32" />
               <folding>
-                <marker date="1487648974000" expanded="true" signature="3714:5206" placeholder="{...}" />
-                <marker date="1487648974000" expanded="true" signature="3730:3956" placeholder="{&quot;form&quot;: 'form.name'...}" />
-                <marker date="1487648974000" expanded="true" signature="3751:3915" placeholder="{...}" />
-                <marker date="1487648974000" expanded="true" signature="3778:3827" placeholder="{&quot;rule&quot;: /.+/...}" />
-                <marker date="1487648974000" expanded="true" signature="3849:3901" placeholder="{&quot;rule&quot;: /.{5,}/...}" />
-                <marker date="1487648974000" expanded="true" signature="3971:4125" placeholder="{&quot;form&quot;: 'form.age'...}" />
-                <marker date="1487648974000" expanded="true" signature="3992:4085" placeholder="{...}" />
-                <marker date="1487648974000" expanded="true" signature="4019:4071" placeholder="{&quot;rule&quot;: /^\d+$/...}" />
-                <marker date="1487648974000" expanded="true" signature="4142:4373" placeholder="{&quot;form&quot;: 'form.grade'...}" />
-                <marker date="1487648974000" expanded="true" signature="4163:4331" placeholder="{...}" />
-                <marker date="1487648974000" expanded="true" signature="4192:4317" placeholder="{...}" />
-                <marker date="1487648974000" expanded="false" signature="4235:4299" placeholder="{...}" />
-                <marker date="1487648974000" expanded="true" signature="4387:5200" placeholder="{&quot;form&quot;: 'form.id'...}" />
-                <marker date="1487648974000" expanded="true" signature="4408:5161" placeholder="{...}" />
-                <marker date="1487648974000" expanded="true" signature="4434:5147" placeholder="{&quot;async&quot;: true...}" />
-                <marker date="1487648974000" expanded="false" signature="4475:5097" placeholder="{...}" />
-                <marker date="1487648974000" expanded="true" signature="4531:4782" placeholder="{&quot;url&quot;: '/recommendRuleV2/isExistRuleCode'...}" />
-                <marker date="1487648974000" expanded="true" signature="4678:4756" placeholder="{...}" />
-                <marker date="1487648974000" expanded="false" signature="4798:5074" placeholder="{...}" />
-                <marker date="1487648974000" expanded="true" signature="4856:4949" placeholder="{...}" />
-                <marker date="1487648974000" expanded="true" signature="4955:5048" placeholder="{...}" />
-                <marker date="1487648974000" expanded="false" signature="5229:5407" placeholder="{...}" />
-                <marker date="1487648974000" expanded="true" signature="5253:5399" placeholder="{...}" />
-                <marker date="1487648974000" expanded="true" signature="5273:5389" placeholder="{&quot;name&quot;: ''...}" />
-                <marker date="1487648974000" expanded="true" signature="5496:6165" placeholder="{...}" />
-                <marker date="1487648974000" expanded="true" signature="5541:5577" placeholder="{...}" />
-                <marker date="1487648974000" expanded="true" signature="5596:6159" placeholder="{...}" />
-                <marker date="1487648974000" expanded="true" signature="5617:5693" placeholder="{...}" />
-                <marker date="1487648974000" expanded="true" signature="5713:5778" placeholder="{...}" />
-                <marker date="1487648974000" expanded="true" signature="5798:5863" placeholder="{...}" />
-                <marker date="1487648974000" expanded="true" signature="5883:5974" placeholder="{...}" />
-                <marker date="1487648974000" expanded="true" signature="5996:6149" placeholder="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.bundle.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/asset/script/index.bundle.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#1321#1559#0" expanded="true" />
-                <element signature="e#2448#21311#0" expanded="true" />
-                <element signature="e#2491#2620#0" expanded="true" />
-                <element signature="e#2685#2877#0" expanded="true" />
-                <element signature="e#20384#20554#0" expanded="true" />
-                <element signature="e#20620#20852#0" expanded="true" />
-                <element signature="e#20773#20841#0" expanded="true" />
-                <element signature="e#20801#20838#0" expanded="true" />
-                <element signature="e#20930#21299#0" expanded="true" />
+                <marker date="1487729843000" expanded="false" signature="3714:5206" placeholder="{...}" />
+                <marker date="1487729843000" expanded="true" signature="3730:3956" placeholder="{&quot;form&quot;: 'form.name'...}" />
+                <marker date="1487729843000" expanded="true" signature="3751:3915" placeholder="{...}" />
+                <marker date="1487729843000" expanded="true" signature="3778:3827" placeholder="{&quot;rule&quot;: /.+/...}" />
+                <marker date="1487729843000" expanded="true" signature="3849:3901" placeholder="{&quot;rule&quot;: /.{5,}/...}" />
+                <marker date="1487729843000" expanded="true" signature="3971:4125" placeholder="{&quot;form&quot;: 'form.age'...}" />
+                <marker date="1487729843000" expanded="true" signature="3992:4085" placeholder="{...}" />
+                <marker date="1487729843000" expanded="true" signature="4019:4071" placeholder="{&quot;rule&quot;: /^\d+$/...}" />
+                <marker date="1487729843000" expanded="true" signature="4142:4373" placeholder="{&quot;form&quot;: 'form.grade'...}" />
+                <marker date="1487729843000" expanded="true" signature="4163:4331" placeholder="{...}" />
+                <marker date="1487729843000" expanded="true" signature="4192:4317" placeholder="{...}" />
+                <marker date="1487729843000" expanded="false" signature="4235:4299" placeholder="{...}" />
+                <marker date="1487729843000" expanded="true" signature="4387:5200" placeholder="{&quot;form&quot;: 'form.id'...}" />
+                <marker date="1487729843000" expanded="true" signature="4408:5161" placeholder="{...}" />
+                <marker date="1487729843000" expanded="true" signature="4434:5147" placeholder="{&quot;async&quot;: true...}" />
+                <marker date="1487729843000" expanded="false" signature="4475:5097" placeholder="{...}" />
+                <marker date="1487729843000" expanded="true" signature="4531:4782" placeholder="{&quot;url&quot;: '/recommendRuleV2/isExistRuleCode'...}" />
+                <marker date="1487729843000" expanded="true" signature="4678:4756" placeholder="{...}" />
+                <marker date="1487729843000" expanded="false" signature="4798:5074" placeholder="{...}" />
+                <marker date="1487729843000" expanded="true" signature="4856:4949" placeholder="{...}" />
+                <marker date="1487729843000" expanded="true" signature="4955:5048" placeholder="{...}" />
+                <marker date="1487729843000" expanded="false" signature="5229:5407" placeholder="{...}" />
+                <marker date="1487729843000" expanded="true" signature="5253:5399" placeholder="{...}" />
+                <marker date="1487729843000" expanded="true" signature="5273:5389" placeholder="{&quot;name&quot;: ''...}" />
+                <marker date="1487729843000" expanded="true" signature="5496:6278" placeholder="{...}" />
+                <marker date="1487729843000" expanded="true" signature="5541:5577" placeholder="{...}" />
+                <marker date="1487729843000" expanded="true" signature="5596:6272" placeholder="{...}" />
+                <marker date="1487729843000" expanded="true" signature="5617:5693" placeholder="{...}" />
+                <marker date="1487729843000" expanded="true" signature="5713:5778" placeholder="{...}" />
+                <marker date="1487729843000" expanded="true" signature="5798:5863" placeholder="{...}" />
+                <marker date="1487729843000" expanded="true" signature="5883:5974" placeholder="{...}" />
+                <marker date="1487729843000" expanded="true" signature="5996:6262" placeholder="{...}" />
+                <marker date="1487729843000" expanded="true" signature="6098:6183" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -164,11 +101,11 @@
         <option value="$PROJECT_DIR$/example/validator/demo.html" />
         <option value="$PROJECT_DIR$/example/validator/index.html" />
         <option value="$PROJECT_DIR$/index.js" />
-        <option value="$PROJECT_DIR$/example/validator/update.vue" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/js/mixins/readme.md" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/src/js/mixins/validator.js" />
-        <option value="$PROJECT_DIR$/src/js/mixins/readme.md" />
+        <option value="$PROJECT_DIR$/example/validator/update.vue" />
       </list>
     </option>
   </component>
@@ -306,7 +243,7 @@
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="JavaScriptLanguageLevel" value="ES6" />
-    <property name="last_opened_file_path" value="$USER_HOME$/work/vue-test-ruby-2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../auto-complete" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="true" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
@@ -356,6 +293,9 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="0dd827a9-5d04-4a87-ae6a-fe53bf2a04fb" name="Default" comment="" />
@@ -397,6 +337,14 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -432,70 +380,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17565872">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-          <folding>
-            <element signature="e#484#1317#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/mixins.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1466" column="49" selection-start-line="1466" selection-start-column="49" selection-end-line="1466" selection-end-column="49" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/validator/update.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.379311">
-          <caret line="79" column="17" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
-          <folding>
-            <marker date="1487648974000" expanded="true" signature="3714:5206" placeholder="{...}" />
-            <marker date="1487648974000" expanded="true" signature="3730:3956" placeholder="{&quot;form&quot;: 'form.name'...}" />
-            <marker date="1487648974000" expanded="true" signature="3751:3915" placeholder="{...}" />
-            <marker date="1487648974000" expanded="true" signature="3778:3827" placeholder="{&quot;rule&quot;: /.+/...}" />
-            <marker date="1487648974000" expanded="true" signature="3849:3901" placeholder="{&quot;rule&quot;: /.{5,}/...}" />
-            <marker date="1487648974000" expanded="true" signature="3971:4125" placeholder="{&quot;form&quot;: 'form.age'...}" />
-            <marker date="1487648974000" expanded="true" signature="3992:4085" placeholder="{...}" />
-            <marker date="1487648974000" expanded="true" signature="4019:4071" placeholder="{&quot;rule&quot;: /^\d+$/...}" />
-            <marker date="1487648974000" expanded="true" signature="4142:4373" placeholder="{&quot;form&quot;: 'form.grade'...}" />
-            <marker date="1487648974000" expanded="true" signature="4163:4331" placeholder="{...}" />
-            <marker date="1487648974000" expanded="true" signature="4192:4317" placeholder="{...}" />
-            <marker date="1487648974000" expanded="false" signature="4235:4299" placeholder="{...}" />
-            <marker date="1487648974000" expanded="true" signature="4387:5200" placeholder="{&quot;form&quot;: 'form.id'...}" />
-            <marker date="1487648974000" expanded="true" signature="4408:5161" placeholder="{...}" />
-            <marker date="1487648974000" expanded="true" signature="4434:5147" placeholder="{&quot;async&quot;: true...}" />
-            <marker date="1487648974000" expanded="false" signature="4475:5097" placeholder="{...}" />
-            <marker date="1487648974000" expanded="true" signature="4531:4782" placeholder="{&quot;url&quot;: '/recommendRuleV2/isExistRuleCode'...}" />
-            <marker date="1487648974000" expanded="true" signature="4678:4756" placeholder="{...}" />
-            <marker date="1487648974000" expanded="false" signature="4798:5074" placeholder="{...}" />
-            <marker date="1487648974000" expanded="true" signature="4856:4949" placeholder="{...}" />
-            <marker date="1487648974000" expanded="true" signature="4955:5048" placeholder="{...}" />
-            <marker date="1487648974000" expanded="false" signature="5229:5407" placeholder="{...}" />
-            <marker date="1487648974000" expanded="true" signature="5253:5399" placeholder="{...}" />
-            <marker date="1487648974000" expanded="true" signature="5273:5389" placeholder="{&quot;name&quot;: ''...}" />
-            <marker date="1487648974000" expanded="true" signature="5496:6165" placeholder="{...}" />
-            <marker date="1487648974000" expanded="true" signature="5541:5577" placeholder="{...}" />
-            <marker date="1487648974000" expanded="true" signature="5596:6159" placeholder="{...}" />
-            <marker date="1487648974000" expanded="true" signature="5617:5693" placeholder="{...}" />
-            <marker date="1487648974000" expanded="true" signature="5713:5778" placeholder="{...}" />
-            <marker date="1487648974000" expanded="true" signature="5798:5863" placeholder="{...}" />
-            <marker date="1487648974000" expanded="true" signature="5883:5974" placeholder="{...}" />
-            <marker date="1487648974000" expanded="true" signature="5996:6149" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/asset/script/index.bundle.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.17565872">
           <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -514,23 +401,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/example/validator/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.034483">
+        <state vertical-scroll-proportion="0.41666666">
           <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/mixins/validator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-          <folding>
-            <element signature="n#!!block;n#getInputs#0" expanded="true" />
-            <element signature="e#201#244#0" expanded="true" />
-            <element signature="n#!!block;n#Mixin#0" expanded="true" />
-            <element signature="e#1523#1575#0" expanded="true" />
-            <element signature="e#2411#2452#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -544,13 +417,92 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/mixins/readme.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41884816">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state vertical-scroll-proportion="-3.6363637">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
           <folding />
         </state>
       </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/mixins.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37264743">
+          <caret line="1491" column="0" selection-start-line="1491" selection-start-column="0" selection-end-line="1491" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#42065#42090#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49295774">
+          <caret line="91" column="8" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="8" />
+          <folding>
+            <element signature="e#484#1317#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/validator/update.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.965517">
+          <caret line="165" column="32" selection-start-line="165" selection-start-column="32" selection-end-line="165" selection-end-column="32" />
+          <folding>
+            <marker date="1487729843000" expanded="false" signature="3714:5206" placeholder="{...}" />
+            <marker date="1487729843000" expanded="true" signature="3730:3956" placeholder="{&quot;form&quot;: 'form.name'...}" />
+            <marker date="1487729843000" expanded="true" signature="3751:3915" placeholder="{...}" />
+            <marker date="1487729843000" expanded="true" signature="3778:3827" placeholder="{&quot;rule&quot;: /.+/...}" />
+            <marker date="1487729843000" expanded="true" signature="3849:3901" placeholder="{&quot;rule&quot;: /.{5,}/...}" />
+            <marker date="1487729843000" expanded="true" signature="3971:4125" placeholder="{&quot;form&quot;: 'form.age'...}" />
+            <marker date="1487729843000" expanded="true" signature="3992:4085" placeholder="{...}" />
+            <marker date="1487729843000" expanded="true" signature="4019:4071" placeholder="{&quot;rule&quot;: /^\d+$/...}" />
+            <marker date="1487729843000" expanded="true" signature="4142:4373" placeholder="{&quot;form&quot;: 'form.grade'...}" />
+            <marker date="1487729843000" expanded="true" signature="4163:4331" placeholder="{...}" />
+            <marker date="1487729843000" expanded="true" signature="4192:4317" placeholder="{...}" />
+            <marker date="1487729843000" expanded="false" signature="4235:4299" placeholder="{...}" />
+            <marker date="1487729843000" expanded="true" signature="4387:5200" placeholder="{&quot;form&quot;: 'form.id'...}" />
+            <marker date="1487729843000" expanded="true" signature="4408:5161" placeholder="{...}" />
+            <marker date="1487729843000" expanded="true" signature="4434:5147" placeholder="{&quot;async&quot;: true...}" />
+            <marker date="1487729843000" expanded="false" signature="4475:5097" placeholder="{...}" />
+            <marker date="1487729843000" expanded="true" signature="4531:4782" placeholder="{&quot;url&quot;: '/recommendRuleV2/isExistRuleCode'...}" />
+            <marker date="1487729843000" expanded="true" signature="4678:4756" placeholder="{...}" />
+            <marker date="1487729843000" expanded="false" signature="4798:5074" placeholder="{...}" />
+            <marker date="1487729843000" expanded="true" signature="4856:4949" placeholder="{...}" />
+            <marker date="1487729843000" expanded="true" signature="4955:5048" placeholder="{...}" />
+            <marker date="1487729843000" expanded="false" signature="5229:5407" placeholder="{...}" />
+            <marker date="1487729843000" expanded="true" signature="5253:5399" placeholder="{...}" />
+            <marker date="1487729843000" expanded="true" signature="5273:5389" placeholder="{&quot;name&quot;: ''...}" />
+            <marker date="1487729843000" expanded="true" signature="5496:6278" placeholder="{...}" />
+            <marker date="1487729843000" expanded="true" signature="5541:5577" placeholder="{...}" />
+            <marker date="1487729843000" expanded="true" signature="5596:6272" placeholder="{...}" />
+            <marker date="1487729843000" expanded="true" signature="5617:5693" placeholder="{...}" />
+            <marker date="1487729843000" expanded="true" signature="5713:5778" placeholder="{...}" />
+            <marker date="1487729843000" expanded="true" signature="5798:5863" placeholder="{...}" />
+            <marker date="1487729843000" expanded="true" signature="5883:5974" placeholder="{...}" />
+            <marker date="1487729843000" expanded="true" signature="5996:6262" placeholder="{...}" />
+            <marker date="1487729843000" expanded="true" signature="6098:6183" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/mixins/validator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39774153">
+          <caret line="90" column="29" selection-start-line="90" selection-start-column="29" selection-end-line="90" selection-end-column="29" />
+          <folding>
+            <element signature="n#!!block;n#getInputs#0" expanded="true" />
+            <element signature="n#!!block;n#getFormTouched#0" expanded="true" />
+            <element signature="e#201#244#0" expanded="true" />
+            <element signature="e#1523#1575#0" expanded="true" />
+            <element signature="e#2411#2452#0" expanded="true" />
+            <element signature="e#2861#2946#0" expanded="true" />
+            <element signature="e#2958#3040#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
