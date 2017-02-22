@@ -17,7 +17,6 @@ function Mixin(ops) {
     var formTouched = getFormTouched(ops);
     var defaultData={
         formTouched: formTouched,
-        checking: false,
         checkTransfer: {}
     };
     return {
@@ -82,14 +81,11 @@ function Mixin(ops) {
                 var rules=ops[input].rules;
                 var ruleKeys=Object.keys(ops[input].rules);
                 var firstRule=rules[ruleKeys[0]].rule;
-                this.checking=true;
                 //需要保证只有一个异步验证且在rules规则的最后一项
                 return firstRule(data).then((result)=> {
                     this.$set(this.checkTransfer, input, result);
                 }).catch(()=>{
                     this.$set(this.checkTransfer,input,false);
-                }).then(()=>{
-                    this.checking=false;
                 })
             },
             touch(input){

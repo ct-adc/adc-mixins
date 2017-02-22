@@ -72,10 +72,6 @@ async: 标注该条验证规则是否为异步验证。
 
 以上两种情况都说明这些input被操作过了。
 
-### checking 
-
-是否在异步验证中。
-
 ### checkTransfer
 
 为computed属性设置的验证结果中转，需要异步验证的控件的结果都需要在checkTransfer中进行中转并中转到validation中相应的属性。

@@ -46,7 +46,9 @@
                                 <input type="input" class="form-control" v-model="form.id">
                             </div>
                             <div class="col-sm-2">
-                                <button type="button" class="btn btn-default" @click="test">检测</button>
+                                <button type="button" class="btn btn-default" @click="test">
+                                    {{checking.id ? '检测中' : '检测'}}
+                                </button>
                             </div>
                             <div class="col-sm-4 text-danger form-control-static">
                                 <span v-if="formTouched.id && !validation.id.isExist">编号不存在!</span>
@@ -130,6 +132,9 @@
                 age: '',
                 grade: '',
                 id: ''
+            },
+            checking:{
+                id:false
             }
         });
     }
@@ -154,15 +159,23 @@
             },
             test(){
                 this.touch('id');
-                this.validateAsync('id');
+                this.checking.id=true;
+                this.validateAsync('id').then(()=>{
+                    this.checking.id=false;
+                })
             },
             submit(){
                 //手动验证需要异步验证的表单
-                Promise.resolve(this.validateAsync('id')).then(()=>{
+                this.validateAsync('id').then(()=>{
                     console.log(JSON.stringify(this.validation));
                     //touch所有的表单元素
                     this.touchAll();
                 })
+
+                //如果有多个异步验证
+                //Promise.all([this.validateAsync('id1'),this.validateAsync('id2'),this.validateAsync('id3')]).then(()=>{
+                //    //所有的验证结束
+                //})
 
             }
         }
