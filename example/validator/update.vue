@@ -100,29 +100,6 @@
                 }
             },
             form: 'form.grade'
-        },
-        id: {
-            rules: {
-                isExist:{
-                    rule:function(data){
-                        return Promise.resolve($.ajax({
-                            url: '/recommendRuleV2/isExistRuleCode',
-                            type: 'post',
-                            data: {
-                                RuleCode: data
-                            }
-                        })).then((res)=> {
-                            if (res.status && res.data) {
-                                return Promise.resolve(true);
-                            } else {
-                                return Promise.reject(false);
-                            }
-                        })
-                    },
-                    async:true
-                }
-            },
-            form: 'form.id'
         }
     };
     function RD(data){
@@ -166,11 +143,12 @@
             },
             submit(){
                 //手动验证需要异步验证的表单
-                this.validateAsync('id').then(()=>{
-                    console.log(JSON.stringify(this.validation));
-                    //touch所有的表单元素
-                    this.touchAll();
-                })
+                //this.validateAsync('id').then(()=>{
+                //    console.log(JSON.stringify(this.validation));
+                //    //touch所有的表单元素
+                //    this.touchAll();
+                //})
+                this.touchAll();
 
                 //如果有多个异步验证
                 //Promise.all([this.validateAsync('id1'),this.validateAsync('id2'),this.validateAsync('id3')]).then(()=>{

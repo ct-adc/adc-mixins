@@ -9,9 +9,9 @@ module.exports = {
     //index:'../index.js'
   },
   output: {
-    path: path.resolve(__dirname, './asset'),
-    publicPath: '/asset/',
-    filename: 'script/[name].bundle.js'
+    path: path.resolve(__dirname, './lib'),
+    publicPath: '/lib/',
+    filename: 'validator.js'
   },
   module: {
     rules: [
@@ -68,6 +68,10 @@ module.exports = {
   performance: {
     hints: false
   }
+  //externals:{
+  //  "ct-utility":"utility"
+  //}
+
   //devtool: '#eval-source-map',
   //plugins:[extractCSS]
 };

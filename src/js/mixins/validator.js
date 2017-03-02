@@ -29,15 +29,21 @@ function Mixin(ops) {
                 var result = {};
                 var inputs=getInputs(ops);
                 inputs.map(input=> {
-                    result[input]=that.validate(input);
+                    if(that.formTouched[input]){
+                        result[input]=that.validate(input);
+                    }
                 });
-                result._pass = inputs.map((input)=> {
-                    var rules=Object.keys(input);
-                    var notAllOk = rules.filter(rule=> {
-                        return !input[rule];
-                    });
-                    return notAllOk.length>0;
-                }).length === 0;
+                if(that.formAllTouched){
+                    result._pass = inputs.filter((input)=> {
+                        var rules=Object.keys(result[input]);
+                        var notAllOk = rules.filter(rule=> {
+                                return !result[input][rule];
+                            }).length>0;
+                        return notAllOk;
+                    }).length === 0;
+                }else{
+                    result._pass=false;
+                }
                 return result;
             },
             /**
@@ -45,8 +51,9 @@ function Mixin(ops) {
              */
             formAllTouched(){
                 var inputs=getInputs(ops);
-                return inputs.map(input=>{
-                        return !this.formTouched[input];
+                var that=this;
+                return inputs.filter(input=>{
+                        return !that.formTouched[input];
                     }).length===0;
             }
         },
@@ -82,10 +89,12 @@ function Mixin(ops) {
                 var ruleKeys=Object.keys(ops[input].rules);
                 var firstRule=rules[ruleKeys[0]].rule;
                 //需要保证只有一个异步验证且在rules规则的最后一项
-                return firstRule(data).then((result)=> {
-                    this.$set(this.checkTransfer, input, result);
-                }).catch(()=>{
+                return firstRule(data).then((res)=> {
+                    this.$set(this.checkTransfer, input, true);
+                    return Promise.resolve(res);
+                }).catch((err)=>{
                     this.$set(this.checkTransfer,input,false);
+                    return Promise.reject(err);
                 })
             },
             touch(input){
