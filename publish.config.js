@@ -5,11 +5,11 @@ var path = require('path');
 var webpack = require('webpack');
 module.exports = {
     entry: {
-        index:'./index.js'
+        validator:'./src/js/mixins/validator.js'
     },
     output: {
         path: path.resolve(__dirname, './lib/mixins'),
-        filename: 'validator.js',
+        filename: '[name].js',
         libraryTarget: 'commonjs-module'
     },
     module: {
