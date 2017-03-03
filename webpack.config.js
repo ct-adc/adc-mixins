@@ -5,13 +5,14 @@ var extractCSS = new ExtractTextPlugin('style/[name].css');
 module.exports = {
   context: path.resolve(__dirname, "./example"),
   entry: {
-    validator:'./validator/app.js'
-    //index:'../index.js'
+    app:'./validator/app.js'
+    //index:'./index.js'
   },
   output: {
-    path: path.resolve(__dirname, './lib'),
-    publicPath: '/lib/',
-    filename: 'validator.js'
+    path: path.resolve(__dirname, './asset'),
+    publicPath: '/asset',
+    filename: '[name].js'
+    //libraryTarget: 'commonjs-module'
   },
   module: {
     rules: [
@@ -53,7 +54,8 @@ module.exports = {
     modules:[path.resolve(__dirname, 'src/js/component'),path.resolve(__dirname, 'src/js/module'),'node_modules'],
     extensions: ['.js', '.json','.vue','.css','.scss'],
     alias: {
-      'vue$': 'vue/dist/vue.common.js'
+      'vue$': 'vue/dist/vue.common.js',
+      'ct-utility':'ct-utility'
     }
   },
   devServer: {
@@ -67,12 +69,17 @@ module.exports = {
   },
   performance: {
     hints: false
-  }
-  //externals:{
-  //  "ct-utility":"utility"
-  //}
+  },
+  //externals:[
+  //  function(context, request, callback) {
+  //    if (/^ct-utility$/.test(request)){
+  //      return callback(null, 'commonjs ' + request);
+  //    }
+  //    callback();
+  //  }
+  //]
 
-  //devtool: '#eval-source-map',
+  devtool: '#eval-source-map',
   //plugins:[extractCSS]
 };
 

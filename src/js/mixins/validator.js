@@ -31,6 +31,18 @@ function Mixin(ops) {
                 inputs.map(input=> {
                     if(that.formTouched[input]){
                         result[input]=that.validate(input);
+                        var notAllOk=Object.keys(result[input]).filter(rule=>{
+                            return !result[input][rule];
+                        }).length>0;
+                        result[input]._pass=!notAllOk;
+                    }else{
+                        var rules=Object.keys(ops[input].rules);
+                        result[input]={
+                            _pass:false
+                        };
+                        rules.map(rule=>{
+                            result[input][rule]=false;
+                        });
                     }
                 });
                 if(that.formAllTouched){
@@ -41,15 +53,13 @@ function Mixin(ops) {
                             }).length>0;
                         return notAllOk;
                     }).length === 0;
-                }else{
-                    result._pass=false;
                 }
                 return result;
             },
             /**
              * 是否所有的表单都被touch
              */
-            formAllTouched(){
+                formAllTouched(){
                 var inputs=getInputs(ops);
                 var that=this;
                 return inputs.filter(input=>{
@@ -61,7 +71,7 @@ function Mixin(ops) {
             /**
              * 对一个input的所有规则进行验证
              */
-            validate(input){
+                validate(input){
                 var result={};
                 var rules = ops[input].rules;
                 var ruleKeys = Object.keys(rules);
@@ -83,7 +93,7 @@ function Mixin(ops) {
             /**
              * 进行异步验证
              */
-            validateAsync(input){
+                validateAsync(input){
                 var data = utility.base.getObjValByKey(this, ops[input].form);
                 var rules=ops[input].rules;
                 var ruleKeys=Object.keys(ops[input].rules);

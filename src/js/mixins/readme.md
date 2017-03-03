@@ -80,20 +80,36 @@ async: 标注该条验证规则是否为异步验证。
 
 ### validation
 
-验证结果对象。
+验证结果对象
 
 ```
 {
     _pass:false,
     name:{
+        _pass:false,
         isRequired:false,
         lt5:true
     },
     age:{
+        _pass:true,
         isNumber:true
     }
 }
 ```
+
+#### validation._pass
+
+整个表单是否成功
+
+#### validation[input]._pass
+
+单个表单元素的验证是否通过
+
+#### validation[input][rule]
+
+单个表单元素的某条规则是否验证通过
+
+
 
 ### formAllTouched 
 
@@ -121,6 +137,27 @@ touch所有的表单控件;无参数。
 ### resetMixin
 
 重置该mixin中的数据。
+
+
+## Q & A
+
+### touch标记的作用？
+
+touch标记主要用于让开发者可以自行控制验证信息是否展示、验证是否被触发。
+具体作用：
+
+1. 手动验证表单；当一个input在formTouched中的值为false时，它的验证信息会被默认置为false,此时并没有真正验证此表单元素;
+
+2. 开发者可以控制是否展示验证信息；开发者可以在表单验证信息展示前检查formTouched中该表单元素的touch标记，如果为false(即用户没有对此进行操作)则不展示验证信息。
+
+### 如果进行异步验证的流程控制？
+
+异步验证的实质就是promise链的管理，在新建一个validator时，对于异步验证传入一个返回promise对象的方法，在validator的validate方法中，
+只是对promise链添加了then和catch进行结果获取并将其注入到validation，所以开发者在外部接收的还是promise对象，且此时的异步验证已经结束，
+可以直接检测validation来获取最新的验证结果。
+
+
+
 
 
 

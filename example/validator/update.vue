@@ -100,6 +100,29 @@
                 }
             },
             form: 'form.grade'
+        },
+        id:{
+            rules:{
+                isExist:{
+                    rule:function(data){
+                        return Promise.resolve($.ajax({
+                            url:'/api/checkId',
+                            type:'post',
+                            data:{
+                                id:data
+                            }
+                        })).then(res=>{
+                            if(res.Status){
+                                return Promise.resolve(res);
+                            }else{
+                                return Promise.reject(res.Message);
+                            }
+                        })
+                    },
+                    async:true
+                }
+            },
+            form:'form.id'
         }
     };
     function RD(data){
@@ -137,22 +160,34 @@
             test(){
                 this.touch('id');
                 this.checking.id=true;
+                //此时的promise可以不用处理结果，因为validator内部会帮你把结果写进validation里面
                 this.validateAsync('id').then(()=>{
                     this.checking.id=false;
                 })
             },
             submit(){
-                //手动验证需要异步验证的表单
-                //this.validateAsync('id').then(()=>{
-                //    console.log(JSON.stringify(this.validation));
-                //    //touch所有的表单元素
-                //    this.touchAll();
-                //})
+                //如果没有异步验证的情况，通过touchAll来触发所有表单元素的验证
                 this.touchAll();
+
+                //如果有异步验证的情况，加入异步验证如：
+                //手动验证需要异步验证的表单
+                //this.validateAsync('id').then((res)=>{
+                //  this.touchAll(); //注意：请在此处触发信息显示，因为默认情况下异步验证的结果会被置为false
+                //    if(validation._pass){
+                //        //提交后端
+                //        //注意：此时的validation中id的结果已经是做完验证的结果。
+                //    }
+                //})
+
 
                 //如果有多个异步验证
                 //Promise.all([this.validateAsync('id1'),this.validateAsync('id2'),this.validateAsync('id3')]).then(()=>{
                 //    //所有的验证结束
+                //      this.touchAll(); //注意：请在此处触发信息显示，因为默认情况下异步验证的结果会被置为false
+                //    if(validation._pass){
+                //        //提交后端
+                //        //注意：此时的validation中id的结果已经是做完验证的结果。
+                //    }
                 //})
 
             }
