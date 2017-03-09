@@ -116,7 +116,7 @@ function Mixin(ops) {
                     that.formTouched[item] = true;
                 })
             },
-            resetMixin(){
+            resetValidator(){
                 utility.base.extend(true,this.$data,defaultData);
             }
         }

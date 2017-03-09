@@ -134,7 +134,7 @@ touch一个input；参数为input名称，如上面的name/age。
 
 touch所有的表单控件;无参数。
 
-### resetMixin
+### resetValidator
 
 重置该mixin中的数据。
 
