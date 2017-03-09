@@ -1,7 +1,7 @@
 ## 更新日志
 
 ### 0.0.2
-*2017-02-28*
+*待定*
 
 - 改善 修改resetMixin为resetValidator，功能不变
 - 新增 mixin实例operator
