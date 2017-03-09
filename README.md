@@ -8,4 +8,4 @@
 
 用于表单验证的mixin。
 
-[说明文档](https://github.com/rubyisapm/ct-mixins/blob/master/src/js/mixins/readme.md)
+[说明文档](https://github.com/ct-adc/adc-mixins/tree/master/src/js/validator/readme.md)
