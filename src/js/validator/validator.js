@@ -29,14 +29,26 @@ function Mixin(ops) {
                 var result = {};
                 var inputs=getInputs(ops);
                 inputs.map(input=> {
-                    if(that.formTouched[input]){
+                    var shouldBeVerified=that[ops[input]['shouldBeVerified']];
+                    if(typeof shouldBeVerified==='undefined'){
+                        shouldBeVerified=true;
+                    }
+                    if(that.formTouched[input] && shouldBeVerified){
                         result[input]=that.validate(input);
                         var notAllOk=Object.keys(result[input]).filter(rule=>{
                             return !result[input][rule];
                         }).length>0;
                         result[input]._pass=!notAllOk;
+                    }else if(!shouldBeVerified){
+                        let rules=Object.keys(ops[input].rules);
+                        result[input]={
+                            _pass:true
+                        };
+                        rules.map(rule=>{
+                            result[input][rule]=true;
+                        });
                     }else{
-                        var rules=Object.keys(ops[input].rules);
+                        let rules=Object.keys(ops[input].rules);
                         result[input]={
                             _pass:false
                         };
@@ -116,7 +128,7 @@ function Mixin(ops) {
                     that.formTouched[item] = true;
                 })
             },
-            resetMixin(){
+            resetValidator(){
                 utility.base.extend(true,this.$data,defaultData);
             }
         }

@@ -69,8 +69,7 @@
 
 <script type="es6">
     import Vue from 'vue';
-    import mixins from '../../index.js';
-    var Validator=mixins.validator;
+    import Validator from '../../src/js/validator/validator.js';
     var ops={
         name: {
             rules: {
@@ -89,6 +88,7 @@
                     rule:/^\d+$/
                 }
             },
+            shouldBeVerified:'shouldVerifyAge',
             form: 'form.age'
         },
         grade: {
@@ -146,10 +146,15 @@
         data(){
             return data;
         },
+        computed:{
+            shouldVerifyAge(){
+                return false;
+            }
+        },
         methods: {
             reset(){
                 RD(data);
-                this.resetMixin();
+                this.resetValidator();
             },
             show(){
                 $(this.$refs.root).modal('show');
