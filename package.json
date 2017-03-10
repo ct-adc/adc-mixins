@@ -1,7 +1,7 @@
 {
   "name": "ct-adc-mixins",
   "description": "A Vue.js project",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "ruby",
   "private": false,
   "main":"/lib/index.js",

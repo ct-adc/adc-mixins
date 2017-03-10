@@ -61,6 +61,11 @@ async: 标注该条验证规则是否为异步验证。
 
 该条控件验证规则对应于vue对象中的数据,支持'form.age'方式，即对应vue中的data.form.age进行验证;
 
+#### ops[表单控件key].shouldBeVerified
+
+该字段可以指向一个数据/计算属性/方法，如果该值为false，则不进行该表单控件的判断，直接设置为true。如果该值为true，则正常判断。
+注意：该项不接受异步操作过滤，如进行一个请求判断后才决定是否验证。后续如有需求可以通过promise实现。
+
 ## 数据
 
 ### formTouched
@@ -108,7 +113,6 @@ async: 标注该条验证规则是否为异步验证。
 #### validation[input][rule]
 
 单个表单元素的某条规则是否验证通过
-
 
 
 ### formAllTouched 
