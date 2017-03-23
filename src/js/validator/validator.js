@@ -29,7 +29,14 @@ function Mixin(ops) {
                 var result = {};
                 var inputs=getInputs(ops);
                 inputs.map(input=> {
-                    var shouldBeVerified=that[ops[input]['shouldBeVerified']];
+                    var shouldBeVerified;
+                    if(typeof ops[input]['shouldBeVerified']==='function'){
+                        shouldBeVerified=ops[input]['shouldBeVerified'].call(that);
+                    }else if(typeof ops[input]['shouldBeVerified']==='boolean'){
+                        shouldBeVerified=ops[input]['shouldBeVerified'];
+                    }if(typeof ops[input]['shouldBeVerified']==='string'){
+                        shouldBeVerified=that[ops[input]['shouldBeVerified']];
+                    }
                     if(typeof shouldBeVerified==='undefined'){
                         shouldBeVerified=true;
                     }
@@ -96,7 +103,7 @@ function Mixin(ops) {
                         if (utility.base.isRegExp(rule)) {
                             result[ruleKey]= rule.test(data);
                         } else if (typeof rule === 'function') {
-                            result[ruleKey]= rule(data);
+                            result[ruleKey]= rule.call(this,data);
                         }
                     }
                 });

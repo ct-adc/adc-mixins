@@ -35,8 +35,9 @@
                             <div class="col-sm-6">
                                 <input type="input" class="form-control" v-model="form.grade" @click="touch('grade')">
                             </div>
-                            <div class="col-sm-4 text-danger form-control-static">
-                                <span v-if="formTouched.grade && !validation.grade.isPositive">请输入一个正数!</span>
+                            <div class="col-sm-4 text-danger form-control-static" v-if="formTouched.grade">
+                                <span v-if="!validation.grade.nameNotEmpty">请先输入名字!</span>
+                                <span v-else-if="!validation.grade.isPositive">请输入一个正数!</span>
                             </div>
                         </div>
                         <div class="form-group">
@@ -88,16 +89,30 @@
                     rule:/^\d+$/
                 }
             },
-            shouldBeVerified:'shouldVerifyAge',
+            shouldBeVerified(){
+                return this.form.name!=='';
+            },
             form: 'form.age'
         },
         grade: {
             rules: {
+                nameNotEmpty:{
+                    rule:function(){
+                        return this.form.name!=='';
+                    }
+                },
                 isPositive:{
                     rule:function (data) {
                         return data > 0;
                     }
+                },
+
+                isRight:{
+                    rule:function(data){
+                        return this.from.other>0 && data>0;
+                    }
                 }
+
             },
             form: 'form.grade'
         },
