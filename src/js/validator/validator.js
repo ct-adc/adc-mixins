@@ -94,7 +94,10 @@ function Mixin(ops) {
                 var result={};
                 var rules = ops[input].rules;
                 var ruleKeys = Object.keys(rules);
-                var data = utility.base.getObjValByKey(this, ops[input].form);
+                var data;
+                if(typeof ops[input].form!=='undefined'){
+                    data=utility.base.getObjValByKey(this, ops[input].form);
+                }
                 ruleKeys.map(ruleKey=>{
                     var rule=rules[ruleKey].rule;
                     if(rules[ruleKey].async){
@@ -113,12 +116,15 @@ function Mixin(ops) {
              * 进行异步验证
              */
                 validateAsync(input){
-                var data = utility.base.getObjValByKey(this, ops[input].form);
+                var data;
                 var rules=ops[input].rules;
                 var ruleKeys=Object.keys(ops[input].rules);
                 var firstRule=rules[ruleKeys[0]].rule;
                 //需要保证只有一个异步验证且在rules规则的最后一项
-                return firstRule(data).then((res)=> {
+                if(typeof ops[input].form!=='undefined'){
+                    utility.base.getObjValByKey(this, ops[input].form)
+                }
+                return firstRule.call(this,data).then((res)=> {
                     this.$set(this.checkTransfer, input, true);
                     return Promise.resolve(res);
                 }).catch((err)=>{
