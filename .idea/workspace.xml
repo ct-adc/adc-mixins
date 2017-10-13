@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="30cd211d-3aea-49aa-bff5-9b16e94cafdd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/changelog.md" afterPath="$PROJECT_DIR$/changelog.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/validator/readme.md" afterPath="$PROJECT_DIR$/src/js/validator/readme.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/mixins/validator.js" afterPath="$PROJECT_DIR$/lib/mixins/validator.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/validator/validator.js" afterPath="$PROJECT_DIR$/src/js/validator/validator.js" />
@@ -28,16 +27,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="changelog.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/changelog.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state>
+              <first_editor vertical-scroll-proportion="0.58577406">
+                <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.0">
+              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="publish.config.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/publish.config.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-                <element signature="e#796#985#0" expanded="true" />
-                <element signature="e#841#979#0" expanded="true" />
-              </folding>
+              <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/js/validator/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state>
+              <first_editor vertical-scroll-proportion="0.35146442">
+                <caret line="77" column="61" selection-start-line="77" selection-start-column="61" selection-end-line="77" selection-end-column="61" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="validator.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/mixins/validator.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -46,126 +87,22 @@
         <entry file="file://$PROJECT_DIR$/src/js/validator/validator.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="102" column="45" selection-start-line="102" selection-start-column="45" selection-end-line="102" selection-end-column="45" />
+              <caret line="38" column="64" selection-start-line="38" selection-start-column="64" selection-end-line="38" selection-end-column="64" />
               <folding>
+                <element signature="n#!!block;n#getInputs#0" expanded="true" />
                 <element signature="n#!!block;n#getFormTouched#0" expanded="true" />
                 <element signature="e#201#244#0" expanded="true" />
-                <element signature="e#4826#4958#0" expanded="true" />
-                <element signature="e#4973#5103#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.43555555">
-              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="changelog.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/changelog.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state>
-              <first_editor vertical-scroll-proportion="0.35146442">
-                <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state>
-              <first_editor vertical-scroll-proportion="-0.054393306">
-                <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/validator/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state>
-              <first_editor vertical-scroll-proportion="0.6004184">
-                <caret line="76" column="20" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/validator/app.js">
+      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webpack.config.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="update.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/validator/update.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.464286">
-              <caret line="126" column="39" selection-start-line="126" selection-start-column="39" selection-end-line="126" selection-end-column="39" />
-              <folding>
-                <marker date="1490238834000" expanded="true" signature="3900:5767" placeholder="{...}" />
-                <marker date="1490238834000" expanded="true" signature="3916:4142" placeholder="{&quot;form&quot;: 'form.name'...}" />
-                <marker date="1490238834000" expanded="true" signature="3937:4101" placeholder="{...}" />
-                <marker date="1490238834000" expanded="true" signature="3964:4013" placeholder="{&quot;rule&quot;: /.+/...}" />
-                <marker date="1490238834000" expanded="true" signature="4035:4087" placeholder="{&quot;rule&quot;: /.{5,}/...}" />
-                <marker date="1490238834000" expanded="true" signature="4157:4402" placeholder="{&quot;form&quot;: 'form.age'...}" />
-                <marker date="1490238834000" expanded="true" signature="4178:4271" placeholder="{...}" />
-                <marker date="1490238834000" expanded="true" signature="4205:4257" placeholder="{&quot;rule&quot;: /^\d+$/...}" />
-                <marker date="1490238834000" expanded="true" signature="4303:4362" placeholder="{...}" />
-                <marker date="1490238834000" expanded="true" signature="4419:4981" placeholder="{&quot;form&quot;: 'form.grade'...}" />
-                <marker date="1490238834000" expanded="true" signature="4440:4939" placeholder="{...}" />
-                <marker date="1490238834000" expanded="true" signature="4471:4601" placeholder="{...}" />
-                <marker date="1490238834000" expanded="false" signature="4508:4583" placeholder="{...}" />
-                <marker date="1490238834000" expanded="true" signature="4630:4755" placeholder="{...}" />
-                <marker date="1490238834000" expanded="false" signature="4673:4737" placeholder="{...}" />
-                <marker date="1490238834000" expanded="true" signature="4782:4924" placeholder="{...}" />
-                <marker date="1490238834000" expanded="false" signature="4823:4906" placeholder="{...}" />
-                <marker date="1490238834000" expanded="true" signature="4994:5761" placeholder="{&quot;form&quot;: 'form.id'...}" />
-                <marker date="1490238834000" expanded="true" signature="5014:5723" placeholder="{...}" />
-                <marker date="1490238834000" expanded="true" signature="5040:5709" placeholder="{&quot;async&quot;: true...}" />
-                <marker date="1490238834000" expanded="true" signature="5081:5659" placeholder="{...}" />
-                <marker date="1490238834000" expanded="true" signature="5137:5358" placeholder="{&quot;url&quot;: '/api/checkId'...}" />
-                <marker date="1490238834000" expanded="true" signature="5261:5332" placeholder="{...}" />
-                <marker date="1490238834000" expanded="false" signature="5371:5636" placeholder="{...}" />
-                <marker date="1490238834000" expanded="true" signature="5415:5507" placeholder="{...}" />
-                <marker date="1490238834000" expanded="true" signature="5511:5610" placeholder="{...}" />
-                <marker date="1490238834000" expanded="false" signature="5790:6031" placeholder="{...}" />
-                <marker date="1490238834000" expanded="true" signature="5814:6023" placeholder="{...}" />
-                <marker date="1490238834000" expanded="true" signature="5834:5950" placeholder="{&quot;name&quot;: ''...}" />
-                <marker date="1490238834000" expanded="true" signature="5973:6013" placeholder="{&quot;id&quot;: false...}" />
-                <marker date="1490238834000" expanded="true" signature="6120:7868" placeholder="{...}" />
-                <marker date="1490238834000" expanded="true" signature="6165:6201" placeholder="{...}" />
-                <marker date="1490238834000" expanded="true" signature="6220:6306" placeholder="{...}" />
-                <marker date="1490238834000" expanded="true" signature="6251:6296" placeholder="{...}" />
-                <marker date="1490238834000" expanded="true" signature="6325:7862" placeholder="{...}" />
-                <marker date="1490238834000" expanded="true" signature="6346:6426" placeholder="{...}" />
-                <marker date="1490238834000" expanded="true" signature="6446:6511" placeholder="{...}" />
-                <marker date="1490238834000" expanded="true" signature="6531:6596" placeholder="{...}" />
-                <marker date="1490238834000" expanded="true" signature="6616:6890" placeholder="{...}" />
-                <marker date="1490238834000" expanded="false" signature="6812:6875" placeholder="{...}" />
-                <marker date="1490238834000" expanded="true" signature="6912:7852" placeholder="{...}" />
-                <marker date="1490238834000" expanded="true" signature="7017:7388" placeholder="//..." />
-                <marker date="1490238834000" expanded="true" signature="7407:7837" placeholder="//..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -181,10 +118,10 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/example/validator/update.vue" />
+        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/js/validator/validator.js" />
         <option value="$PROJECT_DIR$/changelog.md" />
         <option value="$PROJECT_DIR$/src/js/validator/readme.md" />
-        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -222,7 +159,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -334,6 +270,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -407,18 +344,18 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29590395" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -437,15 +374,174 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/publish.config.js">
+    <entry file="file://$PROJECT_DIR$/src/js/validator/validator.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
-            <element signature="e#796#985#0" expanded="true" />
-            <element signature="e#841#979#0" expanded="true" />
+            <element signature="n#!!block;n#getInputs#0" expanded="true" />
+            <element signature="n#!!block;n#getFormTouched#0" expanded="true" />
+            <element signature="e#201#244#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/validator/validator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!block;n#getInputs#0" expanded="true" />
+            <element signature="n#!!block;n#getFormTouched#0" expanded="true" />
+            <element signature="e#201#244#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/publish.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/validator/validator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="102" column="45" selection-start-line="102" selection-start-column="45" selection-end-line="102" selection-end-column="45" />
+          <folding>
+            <element signature="n#!!block;n#getInputs#0" expanded="true" />
+            <element signature="n#!!block;n#getFormTouched#0" expanded="true" />
+            <element signature="e#201#244#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/changelog.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state>
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state>
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/validator/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state>
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="76" column="20" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/validator/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/validator/update.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="126" column="39" selection-start-line="126" selection-start-column="39" selection-end-line="126" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/publish.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/validator/validator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="102" column="45" selection-start-line="102" selection-start-column="45" selection-end-line="102" selection-end-column="45" />
+          <folding>
+            <element signature="n#!!block;n#getInputs#0" expanded="true" />
+            <element signature="n#!!block;n#getFormTouched#0" expanded="true" />
+            <element signature="e#201#244#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/changelog.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state>
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state>
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/validator/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state>
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="76" column="20" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/validator/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/validator/update.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="126" column="39" selection-start-line="126" selection-start-column="39" selection-end-line="126" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/publish.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -471,103 +567,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21413276">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/publish.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-            <element signature="e#796#985#0" expanded="true" />
-            <element signature="e#841#979#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example/validator/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example/validator/update.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.464286">
-          <caret line="126" column="39" selection-start-line="126" selection-start-column="39" selection-end-line="126" selection-end-column="39" />
-          <folding>
-            <marker date="1490238834000" expanded="true" signature="3900:5767" placeholder="{...}" />
-            <marker date="1490238834000" expanded="true" signature="3916:4142" placeholder="{&quot;form&quot;: 'form.name'...}" />
-            <marker date="1490238834000" expanded="true" signature="3937:4101" placeholder="{...}" />
-            <marker date="1490238834000" expanded="true" signature="3964:4013" placeholder="{&quot;rule&quot;: /.+/...}" />
-            <marker date="1490238834000" expanded="true" signature="4035:4087" placeholder="{&quot;rule&quot;: /.{5,}/...}" />
-            <marker date="1490238834000" expanded="true" signature="4157:4402" placeholder="{&quot;form&quot;: 'form.age'...}" />
-            <marker date="1490238834000" expanded="true" signature="4178:4271" placeholder="{...}" />
-            <marker date="1490238834000" expanded="true" signature="4205:4257" placeholder="{&quot;rule&quot;: /^\d+$/...}" />
-            <marker date="1490238834000" expanded="true" signature="4303:4362" placeholder="{...}" />
-            <marker date="1490238834000" expanded="true" signature="4419:4981" placeholder="{&quot;form&quot;: 'form.grade'...}" />
-            <marker date="1490238834000" expanded="true" signature="4440:4939" placeholder="{...}" />
-            <marker date="1490238834000" expanded="true" signature="4471:4601" placeholder="{...}" />
-            <marker date="1490238834000" expanded="false" signature="4508:4583" placeholder="{...}" />
-            <marker date="1490238834000" expanded="true" signature="4630:4755" placeholder="{...}" />
-            <marker date="1490238834000" expanded="false" signature="4673:4737" placeholder="{...}" />
-            <marker date="1490238834000" expanded="true" signature="4782:4924" placeholder="{...}" />
-            <marker date="1490238834000" expanded="false" signature="4823:4906" placeholder="{...}" />
-            <marker date="1490238834000" expanded="true" signature="4994:5761" placeholder="{&quot;form&quot;: 'form.id'...}" />
-            <marker date="1490238834000" expanded="true" signature="5014:5723" placeholder="{...}" />
-            <marker date="1490238834000" expanded="true" signature="5040:5709" placeholder="{&quot;async&quot;: true...}" />
-            <marker date="1490238834000" expanded="true" signature="5081:5659" placeholder="{...}" />
-            <marker date="1490238834000" expanded="true" signature="5137:5358" placeholder="{&quot;url&quot;: '/api/checkId'...}" />
-            <marker date="1490238834000" expanded="true" signature="5261:5332" placeholder="{...}" />
-            <marker date="1490238834000" expanded="false" signature="5371:5636" placeholder="{...}" />
-            <marker date="1490238834000" expanded="true" signature="5415:5507" placeholder="{...}" />
-            <marker date="1490238834000" expanded="true" signature="5511:5610" placeholder="{...}" />
-            <marker date="1490238834000" expanded="false" signature="5790:6031" placeholder="{...}" />
-            <marker date="1490238834000" expanded="true" signature="5814:6023" placeholder="{...}" />
-            <marker date="1490238834000" expanded="true" signature="5834:5950" placeholder="{&quot;name&quot;: ''...}" />
-            <marker date="1490238834000" expanded="true" signature="5973:6013" placeholder="{&quot;id&quot;: false...}" />
-            <marker date="1490238834000" expanded="true" signature="6120:7868" placeholder="{...}" />
-            <marker date="1490238834000" expanded="true" signature="6165:6201" placeholder="{...}" />
-            <marker date="1490238834000" expanded="true" signature="6220:6306" placeholder="{...}" />
-            <marker date="1490238834000" expanded="true" signature="6251:6296" placeholder="{...}" />
-            <marker date="1490238834000" expanded="true" signature="6325:7862" placeholder="{...}" />
-            <marker date="1490238834000" expanded="true" signature="6346:6426" placeholder="{...}" />
-            <marker date="1490238834000" expanded="true" signature="6446:6511" placeholder="{...}" />
-            <marker date="1490238834000" expanded="true" signature="6531:6596" placeholder="{...}" />
-            <marker date="1490238834000" expanded="true" signature="6616:6890" placeholder="{...}" />
-            <marker date="1490238834000" expanded="false" signature="6812:6875" placeholder="{...}" />
-            <marker date="1490238834000" expanded="true" signature="6912:7852" placeholder="{...}" />
-            <marker date="1490238834000" expanded="true" signature="7017:7388" placeholder="//..." />
-            <marker date="1490238834000" expanded="true" signature="7407:7837" placeholder="//..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/validator/validator.js">
-      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="102" column="45" selection-start-line="102" selection-start-column="45" selection-end-line="102" selection-end-column="45" />
-          <folding>
-            <element signature="n#!!block;n#getFormTouched#0" expanded="true" />
-            <element signature="e#201#244#0" expanded="true" />
-            <element signature="e#4826#4958#0" expanded="true" />
-            <element signature="e#4973#5103#0" expanded="true" />
-          </folding>
+          <caret line="126" column="39" selection-start-line="126" selection-start-column="39" selection-end-line="126" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state>
-          <first_editor vertical-scroll-proportion="-0.054393306">
+          <first_editor vertical-scroll-proportion="0.105395235">
             <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14052698">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/mixins/validator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/validator/validator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="64" selection-start-line="38" selection-start-column="64" selection-end-line="38" selection-end-column="64" />
+          <folding>
+            <element signature="n#!!block;n#getInputs#0" expanded="true" />
+            <element signature="n#!!block;n#getFormTouched#0" expanded="true" />
+            <element signature="e#201#244#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/publish.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.0">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/changelog.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state>
+          <first_editor vertical-scroll-proportion="0.58577406">
+            <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
             <folding />
           </first_editor>
           <second_editor />
@@ -577,30 +656,11 @@
     <entry file="file://$PROJECT_DIR$/src/js/validator/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state>
-          <first_editor vertical-scroll-proportion="0.6004184">
-            <caret line="76" column="20" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/changelog.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state>
           <first_editor vertical-scroll-proportion="0.35146442">
-            <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+            <caret line="77" column="61" selection-start-line="77" selection-start-column="61" selection-end-line="77" selection-end-column="61" />
             <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43555555">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>

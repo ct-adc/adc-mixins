@@ -35,7 +35,8 @@ function Mixin(ops) {
                     }else if(typeof ops[input]['shouldBeVerified']==='boolean'){
                         shouldBeVerified=ops[input]['shouldBeVerified'];
                     }if(typeof ops[input]['shouldBeVerified']==='string'){
-                        shouldBeVerified=that[ops[input]['shouldBeVerified']];
+                        //shouldBeVerified=that[ops[input]['shouldBeVerified']];
+                        shouldBeVerified=utility.base.getObjValByKey(that, ops[input]['shouldBeVerified']);
                     }
                     if(typeof shouldBeVerified==='undefined'){
                         shouldBeVerified=true;

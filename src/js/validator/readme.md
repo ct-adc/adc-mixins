@@ -37,6 +37,7 @@ new Vue({
                 rule:/^\d+$/
             }
         },
+        shouldBeVerified: 'form.requireAge'
         form: 'form.age'
     }
 }
@@ -74,7 +75,7 @@ rules中的每一项对应一个该控件的规则。
 
 该字段可以有多种类型:
 
-* 当该字段为String类型时，它指向vm中的数据/计算属性/方法;
+* 当该字段为String类型时，它指向vm中的数据/计算属性/方法;支持链式key，如'form.requireAge'
 * 当该字段为Function类型时，其中的this指向vm实例，即使用该mixin的Vue实例对象;
 * 当该字段为Boolean类型时，如果该值为false，则不进行该表单控件的判断，直接设置为true。如果该值为true，则正常判断;
 
